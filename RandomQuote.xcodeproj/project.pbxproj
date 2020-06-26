@@ -3,29 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D10CAA401E4365197C31C40 /* Pods_RandomQuote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19568D2062DB9D54B1E4385 /* Pods_RandomQuote.framework */; };
 		E564A3A524A622C800A0F61F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564A3A424A622C800A0F61F /* AppDelegate.swift */; };
 		E564A3A724A622C800A0F61F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564A3A624A622C800A0F61F /* SceneDelegate.swift */; };
-		E564A3A924A622C800A0F61F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564A3A824A622C800A0F61F /* ViewController.swift */; };
+		E564A3A924A622C800A0F61F /* RandomQuoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564A3A824A622C800A0F61F /* RandomQuoteVC.swift */; };
 		E564A3AC24A622C800A0F61F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E564A3AA24A622C800A0F61F /* Main.storyboard */; };
 		E564A3AF24A622C800A0F61F /* RandomQuote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E564A3AD24A622C800A0F61F /* RandomQuote.xcdatamodeld */; };
 		E564A3B124A622CC00A0F61F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E564A3B024A622CC00A0F61F /* Assets.xcassets */; };
 		E564A3B424A622CC00A0F61F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E564A3B224A622CC00A0F61F /* LaunchScreen.storyboard */; };
+		E564A3C124A624AE00A0F61F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564A3C024A624AE00A0F61F /* API.swift */; };
+		E564A3C524A62A5900A0F61F /* RandomQuote+model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564A3C424A62A5900A0F61F /* RandomQuote+model.swift */; };
+		E564A3C724A6306D00A0F61F /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564A3C624A6306D00A0F61F /* Progress.swift */; };
+		E564A3C924A6399B00A0F61F /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564A3C824A6399B00A0F61F /* URLs.swift */; };
+		E564A3CB24A6403800A0F61F /* FavoriteQuotesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564A3CA24A6403800A0F61F /* FavoriteQuotesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E564A3A124A622C800A0F61F /* RandomQuote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomQuote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF27B698A43C7583147E522F /* Pods-RandomQuote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomQuote.release.xcconfig"; path = "Target Support Files/Pods-RandomQuote/Pods-RandomQuote.release.xcconfig"; sourceTree = "<group>"; };
+		E1680180C178BB320698CFE0 /* Pods-RandomQuote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomQuote.debug.xcconfig"; path = "Target Support Files/Pods-RandomQuote/Pods-RandomQuote.debug.xcconfig"; sourceTree = "<group>"; };
+		E564A3A124A622C800A0F61F /* Random Quote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Random Quote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E564A3A424A622C800A0F61F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E564A3A624A622C800A0F61F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E564A3A824A622C800A0F61F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E564A3A824A622C800A0F61F /* RandomQuoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuoteVC.swift; sourceTree = "<group>"; };
 		E564A3AB24A622C800A0F61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E564A3AE24A622C800A0F61F /* RandomQuote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RandomQuote.xcdatamodel; sourceTree = "<group>"; };
 		E564A3B024A622CC00A0F61F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E564A3B324A622CC00A0F61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E564A3B524A622CC00A0F61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E564A3C024A624AE00A0F61F /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		E564A3C424A62A5900A0F61F /* RandomQuote+model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomQuote+model.swift"; sourceTree = "<group>"; };
+		E564A3C624A6306D00A0F61F /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		E564A3C824A6399B00A0F61F /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		E564A3CA24A6403800A0F61F /* FavoriteQuotesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteQuotesVC.swift; sourceTree = "<group>"; };
+		E564A3CC24A6596900A0F61F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F19568D2062DB9D54B1E4385 /* Pods_RandomQuote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomQuote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,24 +48,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D10CAA401E4365197C31C40 /* Pods_RandomQuote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0860908BE3439CB0A17C14C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1680180C178BB320698CFE0 /* Pods-RandomQuote.debug.xcconfig */,
+				CF27B698A43C7583147E522F /* Pods-RandomQuote.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E564A39824A622C700A0F61F = {
 			isa = PBXGroup;
 			children = (
 				E564A3A324A622C800A0F61F /* RandomQuote */,
 				E564A3A224A622C800A0F61F /* Products */,
+				E0860908BE3439CB0A17C14C /* Pods */,
+				EFE85CE821DD462A53EB56E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		E564A3A224A622C800A0F61F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E564A3A124A622C800A0F61F /* RandomQuote.app */,
+				E564A3A124A622C800A0F61F /* Random Quote.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,16 +85,62 @@
 		E564A3A324A622C800A0F61F /* RandomQuote */ = {
 			isa = PBXGroup;
 			children = (
+				E564A3C324A62A0300A0F61F /* View */,
+				E564A3C224A629F500A0F61F /* Model */,
+				E564A3BD24A6237F00A0F61F /* Controllers */,
+				E564A3BB24A6235A00A0F61F /* Support */,
 				E564A3A424A622C800A0F61F /* AppDelegate.swift */,
 				E564A3A624A622C800A0F61F /* SceneDelegate.swift */,
-				E564A3A824A622C800A0F61F /* ViewController.swift */,
-				E564A3AA24A622C800A0F61F /* Main.storyboard */,
 				E564A3B024A622CC00A0F61F /* Assets.xcassets */,
-				E564A3B224A622CC00A0F61F /* LaunchScreen.storyboard */,
 				E564A3B524A622CC00A0F61F /* Info.plist */,
 				E564A3AD24A622C800A0F61F /* RandomQuote.xcdatamodeld */,
+				E564A3CC24A6596900A0F61F /* README.md */,
 			);
 			path = RandomQuote;
+			sourceTree = "<group>";
+		};
+		E564A3BB24A6235A00A0F61F /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				E564A3C024A624AE00A0F61F /* API.swift */,
+				E564A3C824A6399B00A0F61F /* URLs.swift */,
+				E564A3C624A6306D00A0F61F /* Progress.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		E564A3BD24A6237F00A0F61F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E564A3A824A622C800A0F61F /* RandomQuoteVC.swift */,
+				E564A3CA24A6403800A0F61F /* FavoriteQuotesVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E564A3C224A629F500A0F61F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E564A3C424A62A5900A0F61F /* RandomQuote+model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E564A3C324A62A0300A0F61F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E564A3AA24A622C800A0F61F /* Main.storyboard */,
+				E564A3B224A622CC00A0F61F /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFE85CE821DD462A53EB56E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F19568D2062DB9D54B1E4385 /* Pods_RandomQuote.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E564A3B824A622CC00A0F61F /* Build configuration list for PBXNativeTarget "RandomQuote" */;
 			buildPhases = (
+				B1740456B1D6812F72BBA0EC /* [CP] Check Pods Manifest.lock */,
 				E564A39D24A622C800A0F61F /* Sources */,
 				E564A39E24A622C800A0F61F /* Frameworks */,
 				E564A39F24A622C800A0F61F /* Resources */,
+				65E242F5423D695D86278548 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -87,7 +162,7 @@
 			);
 			name = RandomQuote;
 			productName = RandomQuote;
-			productReference = E564A3A124A622C800A0F61F /* RandomQuote.app */;
+			productReference = E564A3A124A622C800A0F61F /* Random Quote.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,15 +211,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65E242F5423D695D86278548 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RandomQuote/Pods-RandomQuote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RandomQuote/Pods-RandomQuote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RandomQuote/Pods-RandomQuote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1740456B1D6812F72BBA0EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RandomQuote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E564A39D24A622C800A0F61F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E564A3A924A622C800A0F61F /* ViewController.swift in Sources */,
+				E564A3A924A622C800A0F61F /* RandomQuoteVC.swift in Sources */,
 				E564A3A524A622C800A0F61F /* AppDelegate.swift in Sources */,
+				E564A3CB24A6403800A0F61F /* FavoriteQuotesVC.swift in Sources */,
 				E564A3A724A622C800A0F61F /* SceneDelegate.swift in Sources */,
+				E564A3C924A6399B00A0F61F /* URLs.swift in Sources */,
+				E564A3C724A6306D00A0F61F /* Progress.swift in Sources */,
 				E564A3AF24A622C800A0F61F /* RandomQuote.xcdatamodeld in Sources */,
+				E564A3C124A624AE00A0F61F /* API.swift in Sources */,
+				E564A3C524A62A5900A0F61F /* RandomQuote+model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,17 +408,19 @@
 		};
 		E564A3B924A622CC00A0F61F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1680180C178BB320698CFE0 /* Pods-RandomQuote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QR583T767F;
 				INFOPLIST_FILE = RandomQuote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fadelsultan.RandomQuote;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Random Quote";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,17 +428,19 @@
 		};
 		E564A3BA24A622CC00A0F61F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF27B698A43C7583147E522F /* Pods-RandomQuote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QR583T767F;
 				INFOPLIST_FILE = RandomQuote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fadelsultan.RandomQuote;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Random Quote";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

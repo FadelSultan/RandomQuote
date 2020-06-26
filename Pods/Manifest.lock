@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.2.1)
+  - JGProgressHUD (2.1)
+  - KeychainSwift (19.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - JGProgressHUD
+  - KeychainSwift (~> 19.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - JGProgressHUD
+    - KeychainSwift
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
+  KeychainSwift: a06190cf933ad46b1e0abc3d77d29c06331715c7
+
+PODFILE CHECKSUM: 8080d0396edb4559b54d4392ce8606ed628c73b3
+
+COCOAPODS: 1.9.1
